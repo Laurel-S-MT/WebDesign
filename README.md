@@ -1,7 +1,7 @@
 #### WebDesign
-#Wednesday
+# Wednesday
 
-##A Netflix Sereis by Alfred Gough and Miles Millar
+## A Netflix Sereis by Alfred Gough and Miles Millar
 
 The Wednesday series is a perfect show to watch while getting close to Halloween!
 
