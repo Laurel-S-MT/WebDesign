@@ -1,1 +1,38 @@
+body {
+  background-color: #234aa8;
+  
+}
+
+header {
+    border: 1px solid black;
+  padding: 35px;
+  text-align: center;
+  background-color: #18306d;
+}
+
+  h3, h4, h5 {
+    border: 1px solid black;
+  padding: 35px;
+  text-align: center;
+  background-color: #18306d;
+  }
+
+  p {
+  color: rgb(181, 200, 241);
+  display: inline-block;
+  font-family: Georgia, serif;
+ 
+  }
+
+  h1, h2 {
+   text-align: center;
+  color: rgb(181, 200, 241);
+  font-family: Georgia, serif;
+  }
+
+  div {
+   text-align: center;
+  color: rgb(181, 200, 241);
+  font-family: Georgia, serif;
+  }
 
