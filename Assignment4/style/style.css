@@ -43,14 +43,14 @@ body {
     max-width: 80%; /* controls total width of the content block */
   margin: 80px auto; /* centers content on the page with 80px of top/bottom space */
   padding: 20px 40px; /* adds subtle inner space from edges around content */
-
+color: rgb(138, 238, 255);
  }
 
 .blog-text {
     display: flex; /* another flexbox. We can nest them! */
   flex-direction: column; /* stacks each text element vertically */
   gap: 10px; /* adds consistent space between elements */
-  
+  color: rgb(138, 238, 255);
 }
 
 .date { 
@@ -133,7 +133,7 @@ body {
 }
 
 
-.blog-preview {
+.blog-para {
   text-align: center;
     font-family: Arial, Helvetica, sans-serif; 
   font-size: 0.9rem;
