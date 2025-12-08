@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
 
+<div class="background-color">
+
+
+
+
+<body>
+
+  <div class="page-wrapper">
+
+  
+
+
+
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico"> 
+    <meta charset="UTF-8">
+    <title>Flexbox Layout</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<nav class="nav justify-content-center">
+    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+    <a class="nav-link" href="about.html">About</a>
+    <a class="nav-link" href="gallery.html">Gallery</a>
+    <a class="nav-link" href="practice.html">Animation</a>
+  </nav>
+
+
+<section class="parallax-banner" 
+         style="background-image: url('images/Northern-Lights.jpg');">
+  <div class="parallax-banner-overlay">
+    <div class="parallax-banner-content">
+      <h1>Optional Heading Here</h1>
+    </div>
+  </div>
+</section>
+
+
+
+<!--
+<div class="gallery">
+  <div class="item">One</div>
+  <div class="item">Two</div>
+  <div class="item">Three</div>
+     <div class="item">Four</div>
+      <div class="item">Five</div>
+      <div class="item">Six</div>
+</div> -->
+
+ <!-- Here is my gallery section -->
+    <div class="gallery">
+      <div class="item"><p>Black Billed Magpie.</p></div> 
+      <div class="item"><img src="images/Black Billed Magpie.jpg" alt="A closeup of wildflowers"></div> 
+      <div class="item"><p>Downy Woodpecker.</p></div> 
+      <div class="item"><img src="images/Downy Woodpecker Small.jpg" alt="A closeup of orange flowers"></div> 
+      <div class="item"><p>Great Blue Heron</p></div> 
+      <div class="item"><img src="images/Great Blue Heron - Copy.jpg" alt="A closeup of red flowers"></p></div> 
+       <div class="item"><p>American Robin</p></div> 
+      <div class="item"><img src="images/American Robin.jpg" alt="A closeup of red flowers"></p></div> 
+    </div>
+
+
+
+
+
+<div class="featured-section">
+
+  <div class="blog-list">
+    <img src="images/Downy Woodpecker Small.jpg" alt="Magpie.">
+    <img src="images/Downy Woodpecker Small.jpg" alt="Magpie.">
+    <img src="images/Downy Woodpecker Small.jpg" alt="Magpie.">
+    <img src="images/Downy Woodpecker Small.jpg" alt="Magpie.">
+    <img src="images/Downy Woodpecker Small.jpg" alt="Magpie.">
+    <img src="images/Downy Woodpecker Small.jpg" alt="Magpie.">
+
+    
+  </div>
+
+  <div class="hero">
+    <img src="images/Black Billed Magpie.jpg">
+  </div>
+
+  <div class="card-section">
+    <div class="card"><img src="images/Black Billed Magpie.jpg" alt="X logo"></div>
+   
+  </div>
+
+</div>
+
+
+<div class="right-column">
+  <div class="hero"><img src="images/Black Billed Magpie.jpg"></div>
+  <div class="card-section">...</div>
+</div>
+
+
+
+
+
+ <!-- This script controls my parallax movement -->
+    <script>
+    let latestScroll = 0;
+    window.addEventListener('scroll', () => {
+      latestScroll = window.scrollY;
+    });
+    function parallaxLoop() {
+      const banners = document.querySelectorAll('.parallax-banner-scroll');
+
+      banners.forEach(banner => {
+        let offset = latestScroll * 0.3;
+        banner.style.backgroundPositionY = `${offset}px`;
+      });
+      requestAnimationFrame(parallaxLoop);
+    }
+    parallaxLoop();
+    </script>
+
+
+
+
+</div> <!-- closing div for page-wrapper -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+
+
+
+
+</html>
